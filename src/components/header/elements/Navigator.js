@@ -18,42 +18,10 @@ function Navigator() {
           <a className="navigation-item__title">{navigatorData.HOME.title}</a>
         </Link>
       </li>
-      <li className="navigation-item -toggleable">
+      <li className="navigation-item">
         <Link href={process.env.PUBLIC_URL + navigatorData.SHOP.href}>
           <a className="navigation-item__title">{navigatorData.SHOP.title}</a>
         </Link>
-        <ul className="navigation-item__submenu -wide">
-          <div className="navigation-item__submenu-group">
-            <h5>Layout shop</h5>
-            {navigatorData.SHOP.subMenu.layout.map((item, index) => (
-              <li key={index}>
-                <Link href={process.env.PUBLIC_URL + item.href}>
-                  <a>{item.title}</a>
-                </Link>
-              </li>
-            ))}
-          </div>
-          <div className="navigation-item__submenu-group">
-            <h5>Detail shop</h5>
-            {navigatorData.SHOP.subMenu.detail.map((item, index) => (
-              <li key={index}>
-                <Link href={process.env.PUBLIC_URL + item.href}>
-                  <a>{item.title}</a>
-                </Link>
-              </li>
-            ))}
-          </div>
-          <div className="navigation-item__submenu-group">
-            <h5>Pages shop</h5>
-            {navigatorData.SHOP.subMenu.pages.map((item, index) => (
-              <li key={index}>
-                <Link href={process.env.PUBLIC_URL + item.href}>
-                  <a>{item.title}</a>
-                </Link>
-              </li>
-            ))}
-          </div>
-        </ul>
       </li>
       <li className="navigation-item -toggleable">
         <Link href={process.env.PUBLIC_URL + navigatorData.BLOG.href}>

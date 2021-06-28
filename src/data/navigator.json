@@ -8,30 +8,7 @@
   },
   "SHOP": {
     "title": "Shop",
-    "href": "/shop/shop-grid-3-column",
-    "subMenu": {
-      "layout": [
-        { "title": "Shop Fullwidth", "href": "/shop/shop-fullwidth" },
-        { "title": "Shop 3 Column", "href": "/shop/shop-3-column" }
-      ],
-      "detail": [
-        {
-          "title": "Shop Detail Fullwidth",
-          "href": "/shop/product-detail-fullwidth"
-        },
-        {
-          "title": "Shop Detail Sidebar",
-          "href": "/shop/product-detail-sidebar"
-        }
-      ],
-      "pages": [
-        { "title": "Checkout", "href": "/shop/checkout" },
-        { "title": "Order Complete", "href": "/shop/order-complete" },
-        { "title": "Wishlist", "href": "/shop/wishlist" },
-        { "title": "Compare", "href": "/shop/compare" },
-        { "title": "Cart", "href": "/shop/cart" }
-      ]
-    }
+    "href": "/shop"
   },
   "BLOG": {
     "title": "Blog",
