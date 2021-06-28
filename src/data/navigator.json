@@ -3,11 +3,7 @@
     "title": "Home",
     "href": "#",
     "subMenu": [
-      { "title": "Homepage 1", "href": "/" },
-      { "title": "Homepage 2", "href": "/homepages/homepage2" },
-      { "title": "Homepage 3", "href": "/homepages/homepage3" },
-      { "title": "Homepage 4", "href": "/homepages/homepage4" },
-      { "title": "Homepage 5", "href": "/homepages/homepage5" }
+      { "title": "Home", "href": "/" }
     ]
   },
   "SHOP": {

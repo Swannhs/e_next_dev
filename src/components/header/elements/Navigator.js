@@ -13,19 +13,10 @@ function Navigator() {
   };
   return (
     <ul className="navigation">
-      <li className="navigation-item -toggleable">
-        <Link href={navigatorData.HOME.href}>
+      <li className="navigation-item">
+        <Link href='/'>
           <a className="navigation-item__title">{navigatorData.HOME.title}</a>
         </Link>
-        <ul className="navigation-item__submenu">
-          {navigatorData.HOME.subMenu.map((item, index) => (
-            <li key={index}>
-              <Link href={process.env.PUBLIC_URL + item.href}>
-                <a>{item.title}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
       </li>
       <li className="navigation-item -toggleable">
         <Link href={process.env.PUBLIC_URL + navigatorData.SHOP.href}>
