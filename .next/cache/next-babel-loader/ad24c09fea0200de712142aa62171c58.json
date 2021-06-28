@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { COMPARE } from \"../actionTypes\";\nexport const addToCompare = data => ({\n  type: COMPARE.ADD_TO_COMPARE,\n  payload: {\n    data\n  }\n});\nexport const removeFromCompare = productId => ({\n  type: COMPARE.REMOVE_FROM_COMPARE,\n  payload: {\n    productId\n  }\n});","map":null,"metadata":{},"sourceType":"module"}
